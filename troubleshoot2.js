@@ -49,11 +49,12 @@ var fixPrinter = function()
         case boolPrinting === false && boolRedLight === false && boolRecognised === true:
             stringOutput = stringMessage3; //FFT
             break;
-        case boolPrinting === false && boolRedLight === false && boolRecognised === false:
-            stringOutput = stringMessage6; //FFF
-            break;
+        //case boolPrinting === false && boolRedLight === false && boolRecognised === false:
+            //stringOutput = stringMessage6; //FFF
+            //break;
         default:
-            console.log(stringMessage6);
+            stringOutput = stringMessage6;
+            break;
     }
     $("output").value = stringOutput;
 };
