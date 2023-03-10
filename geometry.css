@@ -1,0 +1,45 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #56988b;
+}
+
+#content {
+    width: 475px;
+    height: 500px;
+    margin: 15px auto;
+    padding: 5px 10px;
+    background: #cbf3e1;
+    border: 1px solid #285b54;
+}
+
+h1 {
+	text-align: left;
+}
+
+p {
+	color: rgb(189, 61, 61);
+	font-weight: bold;
+	text-align: left;
+}
+
+label {
+    display: block;
+    width: 13em;
+    text-align: left;
+    padding-right: 0em;
+    float: left;
+}
+
+input {
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+#futureValue {
+    color: #000000;
+}
+
+br {
+    clear: left;
+}
